@@ -66,12 +66,7 @@ export async function getGitDiff(
   cwd?: string,
   onlyMerges?: boolean
 ): Promise<RawGitCommit[]> {
-  let mergesFlag = "";
-  if (onlyMerges) {
-    mergesFlag = "--merges";
-  } else {
-    mergesFlag = "--no-merges";
-  }
+  const mergesFlag = onlyMerges ? "--merges" : "--no-merges";
   // https://git-scm.com/docs/pretty-formats
   const r = execCommand(
     `git --no-pager log "${from ? `${from}...` : ""}${to}" --pretty="----%n%s|%h|%an|%ae%n%b" --name-status ${mergesFlag}`,

@@ -13,7 +13,7 @@ describe("contributors", () => {
     expect(contents).toMatchInlineSnapshot(`
       "## v2.0.0
 
-      [compare changes](https://github.com/unjs/changelogen/compare/1.0.0...v2.0.0)
+      [compare changes](https://github.com/HoshinoSuzumi/changelogen/compare/1.0.0...v2.0.0)
 
       ### 🚀 Enhancements
 
@@ -51,7 +51,7 @@ describe("contributors", () => {
     expect(contents).toMatchInlineSnapshot(`
       "## v2.0.0
 
-      [compare changes](https://github.com/unjs/changelogen/compare/1.0.0...v2.0.0)
+      [compare changes](https://github.com/HoshinoSuzumi/changelogen/compare/1.0.0...v2.0.0)
 
       ### 🚀 Enhancements
 
@@ -82,7 +82,7 @@ describe("contributors", () => {
     expect(contents).toMatchInlineSnapshot(`
       "## v2.0.0
 
-      [compare changes](https://github.com/unjs/changelogen/compare/1.0.0...v2.0.0)
+      [compare changes](https://github.com/HoshinoSuzumi/changelogen/compare/1.0.0...v2.0.0)
 
       ### 🚀 Enhancements
 

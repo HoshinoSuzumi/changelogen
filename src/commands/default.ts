@@ -49,7 +49,12 @@ export default async function defaultMain(args: Argv) {
     onlyMerges = false;
   }
 
-  const rawCommits = await getGitDiff(config.from, config.to, config.cwd, onlyMerges);
+  const rawCommits = await getGitDiff(
+    config.from,
+    config.to,
+    config.cwd,
+    onlyMerges
+  );
 
   // Parse commits as conventional commits
   const commits = parseCommits(rawCommits, config)
