@@ -1,8 +1,8 @@
 {
-  "name": "changelogen",
-  "version": "0.6.2",
+  "name": "@uniiem/changelogen",
+  "version": "0.6.3",
   "description": "Generate Beautiful Changelogs using Conventional Commits",
-  "repository": "unjs/changelogen",
+  "repository": "HoshinoSuzumi/changelogen",
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
