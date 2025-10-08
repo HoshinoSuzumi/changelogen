@@ -33,7 +33,7 @@ describe("contributors", () => {
 
       ### ❤️ Contributors
 
-      - John Doe ([@brainsucker](https://github.com/brainsucker))
+      - John Doe (@brainsucker)
       - Jane Smith <jane@smith.com>
       - Alice Johnson <alice@johnson.com>
       - Bob Williams <bob@williams.com>"
@@ -102,7 +102,7 @@ describe("contributors", () => {
 
       ### ❤️ Contributors
 
-      - John Doe ([@brainsucker](https://github.com/brainsucker))
+      - John Doe (@brainsucker)
       - Jane Smith
       - Alice Johnson
       - Bob Williams"
