@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.7.2
+
+[compare changes](https://github.com/HoshinoSuzumi/changelogen/compare/v0.7.1...v0.7.2)
+
+### 🎨 Styles
+
+- **markdown:** Simplify author GitHub username formatting ([a012bbe](https://github.com/HoshinoSuzumi/changelogen/commit/a012bbe))
+- **test:** Simplify contributor GitHub username formatting ([e774dc7](https://github.com/HoshinoSuzumi/changelogen/commit/e774dc7))
+
+### ❤️ Contributors
+
+- Timothy Yin (@HoshinoSuzumi)
+
 ## v0.7.0
 
 
