@@ -98,9 +98,7 @@ export async function generateMarkDown(
         );
         const email =
           config.hideAuthorEmail !== true && _email ? ` <${_email}>` : "";
-        const github = i.github
-          ? ` (@${i.github})`
-          : "";
+        const github = i.github ? ` (@${i.github})` : "";
         return `- ${i.name}${github || email || ""}`;
       })
     );
